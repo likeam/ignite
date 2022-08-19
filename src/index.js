@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { configureStore } from '@reduxjs/toolkit';
+import { legacy_createStore as createStore } from 'redux';
+const store = createStore();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
