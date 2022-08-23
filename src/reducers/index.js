@@ -4,3 +4,5 @@ import gameReducer from "./gamesReducrs";
 const rootReducer = combineReducers({
     games: gameReducer,
 })
+
+export default rootReducer;
