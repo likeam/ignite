@@ -5,9 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import { legacy_createStore as createStore } from 'redux';
 import rootReducer from './reducers';
 import { Provider } from 'react-redux';
-import gameReducer from './reducers/gamesReducrs';
 
-const store = createStore(gameReducer);
+
+const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
