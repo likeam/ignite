@@ -1,3 +1,5 @@
+import { type } from "@testing-library/user-event/dist/type"
+
 const initState = {
     popular : [],
     newGames : [],
@@ -14,5 +16,12 @@ const gameReducer = (state = initState, action ) => {
             return {...state }
     }
 }
+
+
+//ACTION
+{
+    type: "FETCH_GAMES";
+}
+dispatch({type: "FETCH_GAMES"});
 
 export default gameReducer;
