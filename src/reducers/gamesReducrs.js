@@ -5,7 +5,8 @@ const initState = {
     newGames : [],
     upcoming : [], 
     searched: [], 
-    newarrivals: []
+    newarrivals: [],
+    watched: []
 }
 
 
