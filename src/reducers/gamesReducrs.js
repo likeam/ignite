@@ -3,8 +3,7 @@ import { type } from "@testing-library/user-event/dist/type"
 const initState = {
     popular : [],
     newGames : [],
-    upcoming : [], 
-    searched: []
+    upcoming : []
 }
 
 
