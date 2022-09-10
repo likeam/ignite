@@ -18,8 +18,8 @@ const gameReducer = (state = initState, action ) => {
 
 //ACTION
 {
-    type: "FETCH_GAMES";
+    type: FETCH_GAMES
 }
-display({type: "FETCH_GAMES"});
+dispatch({type: "FETCH_GAMES"});
 
 export default gameReducer;
